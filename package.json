@@ -1,0 +1,31 @@
+{
+  "name": "spaceship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node express.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fezzshuji/spaceship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fezzshuji/spaceship/issues"
+  },
+  "homepage": "https://github.com/fezzshuji/spaceship#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "kill-port": "^2.0.1",
+    "node": "^19.6.1",
+    "nodemon": "^2.0.21",
+    "pg": "^8.9.0"
+  }
+}
